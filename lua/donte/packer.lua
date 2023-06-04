@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/playground')
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
-    use('tpope/vim-fugitive')
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',
@@ -36,6 +35,9 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
+    use('simrat39/rust-tools.nvim')
+
+    use('nvim-lua/plenary.nvim')
     use('mfussenegger/nvim-dap')
 
     use("folke/zen-mode.nvim")
