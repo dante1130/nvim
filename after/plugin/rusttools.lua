@@ -1,8 +1,8 @@
 local rt = require("rust-tools")
 
-local extension_path = vim.env.HOME .. "~/.vscode/extensions/vadimcn.vscode-lldb-1.9.2"
-local codelldb_path = extension_path .. "/adapter/codelldb.exe"
-local liblldb_path = extension_path .. "/lldb/bin/liblldb.dll"
+local extension_path = vim.env.HOME .. "/.vscode/extensions/vadimcn.vscode-lldb-1.9.2/"
+local codelldb_path = extension_path .. "adapter\\codelldb.exe"
+local liblldb_path = extension_path .. "lldb\\bin\\liblldb.dll"
 
 local opts = {
     server = {
@@ -28,4 +28,3 @@ local opts = {
 }
 
 rt.setup(opts);
-
