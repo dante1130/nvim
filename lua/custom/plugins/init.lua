@@ -25,5 +25,10 @@ return {
             })
         end
     },
-    { 'mbbill/undotree', }
+    { 'mbbill/undotree', },
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+        opts = {}
+    }
 }
