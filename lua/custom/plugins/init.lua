@@ -30,5 +30,10 @@ return {
         'windwp/nvim-autopairs',
         event = "InsertEnter",
         opts = {}
+    },
+    {
+        'mrcjkb/rustaceanvim',
+        version = '^3', -- Recommended
+        ft = { 'rust' },
     }
 }
