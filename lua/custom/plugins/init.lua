@@ -1,5 +1,8 @@
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
+vim.g.neovide_cursor_animation_length = 0
+vim.g.neovide_scroll_animation_length = 0
+vim.g.neovide_transparency = 0.9
 vim.opt.scrolloff = 8
 vim.opt.relativenumber = true
 vim.opt.smartindent = true
