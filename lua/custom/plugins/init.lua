@@ -39,4 +39,7 @@ return {
         version = '^3', -- Recommended
         ft = { 'rust' },
     },
+    {
+        'xiyaowong/transparent.nvim',
+    }
 }
